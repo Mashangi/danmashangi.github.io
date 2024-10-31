@@ -1,10 +1,24 @@
 <!DOCTYPE>
 <html>
     <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+
     </head>
     <body>
-        <div id = "intro-section" img >
+        <!-- <div class="planet">
+            <img src="planet.png">
+        </div> -->
+        <div class="moon">
+            <img src="planet_colored.png">
+        </div>
+        <div class = "intro-section" img >
             <div>
                 <div id = "menu-section">
                     <ul>
@@ -14,54 +28,132 @@
                         <li style="float:right" ><a href="#About">About</a></li>
                     </ul>
                 </div>
-                <h1>Daniel Mashangi</h1>
-                <h3>SOFTWARE ARCHITECT</h3>
-                <ul id = "skills-section">
-                    <li>Android</li>
-                    <li>Kotlin</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>Networking</li>
-                </ul>
+                <div class="text-area">
+                    <h1>Daniel</h1>
+                    <h1>Mashangi</h1>
+                    <h3>Software Architect</h3>
+                    <p>Daniel Mashangi is a self-taught software architect with a 2-year professional career. With over 8 years of practice, I bring you a wealth of knowledge and experience to help turn your ideas to reality.</p>
+                </div>
+
+                <div class = "skills-section">
+                    <div class = "button Android">
+                        <div class = "icon">
+                            <i class="fa-brands fa-android"></i>
+                        </div>
+                        <span>Android 90%</span>
+                    </div>
+                    <div class = "button Kotlin">
+                        <div class = "icon"><i class="fa-solid fa-mobile"></i></div>
+                        <span>Kotlin 90%</span>
+                    </div>
+                    <div class = "button Java">
+                        <div class = "icon"><i class="fa-brands fa-java"></i></i></div>
+                        <span>Java 80%</span>
+                    </div>
+                    <div class = "button python">
+                        <div class = "icon"><i class="fa-brands fa-python"></i></div>
+                        <span>Python 90%</span>
+                    </div>
+
+                    <div class = "button Networking">
+                        <div class = "icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <span>Networking 60%</span>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <h2 style = "margin-left: 10px;" >Projects</h2>
-        <div id = "projects-section">
-            <div class = "project-card">
-                <h4> Gathenge Inventory</h4>
-                <p> An inventory system that records all incoming and outgoing items in the inventory of the company</p>
-                <img src="assets/inventory_management.png" alt="Gathenge Inventory">
+
+        <h2 style = "margin-left: 10px;" id="projects-heading">Projects</h2>
+        <div class = "projects-section">
+            <div class = "card">
+
+                <div class = "content-box">
+                    <p class = "name"> Gathenge Inventory</p>
+                    <span class="content"> An inventory system that records all incoming and outgoing items in the inventory of the company</span>
+                    <div class = "button">Request Demo</div>
+                </div>
+                <div class="image-box">
+                    <img src="assets/inventory_management.png" alt="Gathenge Inventory">
+                </div>
+
             </div>
-            <div class = "project-card">
-                <h4>Heximas Crop</h4>
-                <p> An agricultural system that records all incoming and outgoing items in the inventory of the company</p>
-                <img src="assets/crop_app.png" alt="Heximas Crop">
+            <div class = "card">
+                <div class = "content-box">
+                    <p class = "name">Dukanet</p>
+                    <span class="content"> An agricultural system that records all incoming and outgoing items in the inventory of the company</span>
+                    <div class = "button">Request Demo</div>
+                </div>
+                <div class="image-box">
+                    <img src="assets/apps.jpeg" alt="Heximas Crop">
+                </div>
             </div>
-            <div class = "project-card">
-                <h4>Heximas Crop</h4>
-                <p> An agricultural system that records all incoming and outgoing items in the inventory of the company</p>
-                <img src="assets/crop_app.png" alt="Heximas Crop">
+            <div class = "card">
+                <div class="content-box">
+                    <p class = "name">My Home</p>
+                    <span class="content"> An agricultural system that records all incoming and outgoing items in the inventory of the company</span>
+                    <div class = "button">Request Demo</div>
+                </div>
+                <div class="image-box">
+                    <img src="assets/apps.jpeg" alt="Heximas Crop">
+                </div>
+            
             </div>
-            <div class = "project-card">
-                <h4>Heximas Crop</h4>
-                <p> An agricultural system that records all incoming and outgoing items in the inventory of the company</p>
-                <img src="assets/crop_app.png" alt="Heximas Crop">
+            <div class = "card">
+                <div class="content-box">
+                    <p class = "name">Heximas Crop</p>
+                    <span class = content> An agricultural system that records all incoming and outgoing items in the inventory of the company</span>
+                    <div class = "button">Request Demo</div>
+                </div>
+                <div class="image-box">
+                    <img src="assets/apps.jpeg" alt="Heximas Crop">
+                </div>
+                
             </div>
-            <div class = "project-card">
-                <h4>Heximas Crop</h4>
-                <p> An agricultural system that records all incoming and outgoing items in the inventory of the company</p>
-                <img src="assets/crop_app.png" alt="Heximas Crop">
+            <div class = "card">
+                <div class="content-box">
+                    <p class= "name">Avoline</p>
+                    <span class ="content"> An agricultural system that records all incoming and outgoing items in the inventory of the company</span>
+                    <div class = "button">Request Demo</div>
+                </div>
+                <div class="image-box">
+                    <img src="assets/apps.jpeg" alt="Heximas Crop">
+                </div>
+                
             </div>
         </div>
 
-        <div id = "contacts-section">
-            <ul>
-                <li> <a href = "https://www.linkedin.com/in/daniel-mashangi-a62b42334">LinkedIn</a></li>
-                <li > <a href = "https://www.linkedin.com/in/daniel-mashangi-a62b42334">UpWork </a></li>
-                <li> <a href = "https://github.com/Mashangi">Git Hub</a></li>
-            </ul>
+        <div class="about-section">
+            <h2>About</h2>
+            <div class="content">
+                <span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </span>
+            </div>
         </div>
 
+        <div class = "toolbar" tabindex="contact">
+            <div class = "socials-section">
+                <div class = "button github">
+                    <div class = "icon"><i class="fa-brands fa-github"> </i></div>
+                    <span>Git Hub</span>
+                </div>
+                <div class = "button linkedIn">
+                    <div class = "icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <span>LinkedIn</span>
+                </div>
+
+                <div class = "button upwork">
+                    <div class = "icon"><i class="fa-brands fa-upwork"></i></div>
+                    <span>UpWork</span>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p>danmashangi@gmail.com</p>
+                <p>+254768773231</p>
+            </div>
+        </div>
     </body>
 </html>
