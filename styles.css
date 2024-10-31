@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"')
 
 *{
   box-sizing: border-box;
@@ -15,24 +16,23 @@ body {
   background-size: cover;
 }
 
-.planet{
+.astronant{
   position: fixed;
   z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
+  width: 200px;
+  height: auto;
   /*background-image: url("planet.png");*/
 }
 
-.planet img{
+.astronant img{
   position: absolute;
-  width: 500px;
+  width: 150px;
   height: auto;
-  left: 70px;
+  left: 350px;
   top: 100px;
 }
 
-.moon{
+.planet{
   
   width: 500;
   height: 500;
@@ -42,7 +42,7 @@ body {
   /*background-image: url("planet.png");*/
 }
 
-.moon img{
+.planet img{
   position: absolute;
   width: 500;
   height: auto;
@@ -123,17 +123,22 @@ body {
   font-style: normal;
 /*  text-shadow: 1px 1px 1px #aaa;*/
   font-size: 50;
+  line-height: 20px;
 }
 
 .intro-section .text-area h3{
   color: #ffffff99;
   text-align: right;
+  line-height: 5px;
 }
 
 .intro-section .text-area p{
-  color: #ffffff99;
+  color: #ffffffdd;
   float:right;
   text-align: right;
+  margin-top: -5px;
+  font-size: 20;
+  font-family: "Montserrat", serif;
 }
 
 .skills-section{
@@ -258,14 +263,17 @@ body {
 
 .projects-section .card .content{
   position: absolute;
-  top: 100;
+  top: 90;
   left: 25;
+  font-size: 18;
+  line-height: 25px;
+  font-family: "Times New Roman", serif;
 }
 
 .projects-section .card .content-box{
   position: absolute;
   left: 0;
-  width: 300px;
+  width: 290px;
   height: 100%;
 }
 
@@ -307,18 +315,32 @@ body {
 }
 
 .about-section{
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 550px;
   text-align: center;
   position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
   left: 50%;
-  margin-left: -250px;
+  margin-left: -300px;
   border-radius: 20px;
   color: white;
   padding: 20px;
   backdrop-filter: blur(100px);
+}
+.about-section .content{
+  display: inline-grid;
+  letter-spacing: 1px;
+  width: 400px;
+  font-size: 20;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  white-space: pre-line;
+  margin-left: -175px;
+  text-indent: 50px;
+  line-height: 40px;
+  font-family: "Montserrat", serif;
 }
 
 .toolbar {
